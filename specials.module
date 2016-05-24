@@ -1,7 +1,7 @@
 <?php
 
 
-function speicals_menu() {
+function specials_menu() {
 	
 	$items = array();
 	$items['specials'] = array(
@@ -11,7 +11,15 @@ function speicals_menu() {
 			'type' => MENU_NORMAL_ITEM,
 		);
 
-	return $items,
+	return $items;
 }
 
-function specials_display
+function specials_display() {
+	return '
+		<ul>
+			<li>Saint Nicholas</li>
+			<li>Olivet Presbyterian Church</li>
+			<li>First Presbyterian Church Kensington</li>
+		</ul>
+	';
+}
